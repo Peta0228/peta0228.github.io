@@ -1,3 +1,6 @@
 [submodule "themes/lugo"] 
   path = themes/lugo
   url = https://github.com/Peta0228/lugo
+[submodule "anatole2"]
+	path = themes/anatole
+	url = https://github.com/Peta0228/anatole
