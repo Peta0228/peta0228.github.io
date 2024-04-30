@@ -20,10 +20,10 @@
     
     <item>
       <title>Certifications</title>
-      <link>https://example.com/certifications/</link>
+      <link>https://example.com/certifications1/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/certifications/</guid>
+      <guid>https://example.com/certifications1/</guid>
       
         <description>Hugo Certifications</description>
       
@@ -190,8 +190,7 @@
       
       <guid>https://example.com/imprint/</guid>
       
-        <description>Legal Disclosure Information in accordance with the applicable law
-Jane Doe</description>
+        <description>Legal Disclosure Peter Wu@peterwu0228@icloud.com</description>
       
     </item>
     
