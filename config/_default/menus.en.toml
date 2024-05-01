@@ -5,9 +5,9 @@
   url = "/"
 
   [[main]]
-  name = "Posts"
+  name = "Miscs"
   weight = 200
-  identifier = "posts"
+  identifier = "post"
   url = "/post/"
 
   [[main]]

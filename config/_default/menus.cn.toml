@@ -1,0 +1,23 @@
+  [[main]]
+  name = "main"
+  identifier = "main"
+  weight = 100
+  url = "/cn/"
+
+  [[main]]
+  name = "misc"
+  weight = 200
+  identifier = "misc"
+  url = "/cn/misc/"
+
+  [[main]]
+  name = "about"
+  weight = 300
+  identifier = "about"
+  url = "/cn/about/"
+
+  [[main]]
+  name = "contact"
+  weight = 400
+  identifier = "contact"
+  url = "/cn/contact/"

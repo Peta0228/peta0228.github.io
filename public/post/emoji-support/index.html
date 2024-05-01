@@ -6,12 +6,12 @@
   
     class="html theme--light"
   
-><head>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <title>
     
       
-        Emoji Support |
+        Fruit |
       Peter Wu
 
   </title>
@@ -82,7 +82,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://example.com/post/emoji-support/" />
+  <link rel="canonical" href="http://localhost:1313/post/emoji-support/" />
 
   
   
@@ -113,23 +113,23 @@
 
   
   <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://example.com/images/site-feature-image.png"><meta name="twitter:title" content="Emoji Support">
+<meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png"><meta name="twitter:title" content="Fruit">
 <meta name="twitter:description" content="Guide to emoji usage in Hugo">
 
 
 
   
-  <meta property="og:url" content="https://example.com/post/emoji-support/">
+  <meta property="og:url" content="http://localhost:1313/post/emoji-support/">
   <meta property="og:site_name" content="My blog">
-  <meta property="og:title" content="Emoji Support">
+  <meta property="og:title" content="Fruit">
   <meta property="og:description" content="Guide to emoji usage in Hugo">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2019-03-05T00:00:00+00:00">
-    <meta property="article:modified_time" content="2019-03-05T00:00:00+00:00">
-    <meta property="article:tag" content="Emoji">
-    <meta property="og:image" content="https://example.com/images/site-feature-image.png">
+    <meta property="article:published_time" content="2024-05-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-01T00:00:00+00:00">
+    <meta property="article:tag" content="Favs">
+    <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
 
 
 
@@ -142,8 +142,8 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "post",
-        "name": "Emoji Support",
-        "headline": "Emoji Support",
+        "name": "Fruit",
+        "headline": "Fruit",
         "alternativeHeadline": "",
         "description": "
       Guide to emoji usage in Hugo
@@ -154,7 +154,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/example.com\/post\/emoji-support\/"
+            "@id": "http:\/\/localhost:1313\/post\/emoji-support\/"
         },
         "author" : {
             "@type": "Person",
@@ -172,17 +172,17 @@
             "@type": "Person",
             "name": "Hugo Authors"
         },
-        "copyrightYear" : "2019",
-        "dateCreated": "2019-03-05T00:00:00.00Z",
-        "datePublished": "2019-03-05T00:00:00.00Z",
-        "dateModified": "2019-03-05T00:00:00.00Z",
+        "copyrightYear" : "2024",
+        "dateCreated": "2024-05-01T00:00:00.00Z",
+        "datePublished": "2024-05-01T00:00:00.00Z",
+        "dateModified": "2024-05-01T00:00:00.00Z",
         "publisher":{
             "@type":"Organization",
             "name": "Hugo Authors",
-            "url": "https://example.com/",
+            "url": "http://localhost:1313/",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https:\/\/example.com\/favicons\/favicon-32x32.png",
+                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
                 "width":"32",
                 "height":"32"
             }
@@ -190,19 +190,19 @@
         "image": 
       [
         
-        "https://example.com/images/site-feature-image.png"
+        "http://localhost:1313/images/site-feature-image.png"
 
 
       
       ]
 
     ,
-        "url" : "https:\/\/example.com\/post\/emoji-support\/",
-        "wordCount" : "129",
+        "url" : "http:\/\/localhost:1313\/post\/emoji-support\/",
+        "wordCount" : "6",
         "genre" : [ ],
         "keywords" : [ 
       
-      "emoji"
+      "favs"
 
     ]
     }
@@ -362,7 +362,7 @@
               href="/post/"
               
               title=""
-              >Posts</a
+              >Miscs</a
             >
           </li>
         
@@ -486,7 +486,7 @@
   >
     
     <div class="post__content">
-      <h1>Emoji Support</h1>
+      <h1>Fruit</h1>
       
         <ul class="post__meta">
           <li class="post__meta-item">
@@ -494,7 +494,7 @@
             <span class="post__meta-text"
               >
                 
-                  5/3/2019
+                  1/5/2024
                 
 
               
@@ -505,22 +505,15 @@
             <span class="post__meta-text">One-minute read</span>
           </li>
         </ul>
-      <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+      <p>
+<span class="nowrap"><span class="emojify">🍎</span> > </span>  <span class="nowrap"><span class="emojify">🍊</span> 
 <br>
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">.emoji {
-</span></span><span class="line"><span class="cl">font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-</span></span><span class="line"><span class="cl">}</span></span></code></pre></div></div>
+ <span class="nowrap"><span class="emojify">🍈</span> >  <span class="nowrap"><span class="emojify">🍉</span></p></div>
     <div class="post__footer">
       
 
       
-        <span><a class="tag" href="/tags/emoji/">emoji</a></span>
+        <span><a class="tag" href="/tags/favs/">favs</a></span>
 
 
       

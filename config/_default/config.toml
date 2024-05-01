@@ -46,3 +46,6 @@ localizedDates = false
 [[related.indices]]
   name = 'tags'
   weight = 80
+
+[params]
+      mainSections = "miscs"

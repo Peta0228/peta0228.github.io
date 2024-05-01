@@ -12,6 +12,6 @@ My email is: peterwu0228@icloud.com
 
 Cornell University, US - MEng in Operation Research & Information Engineering
 
-Western University, Canada - BA in Business Administration (Ivey Business) & BSc in Computer Science
+Western University, Canada - Ivey Business & Computer Science
 
 The University of Hong Kong, Hong Kong - Exchange, HKU Business

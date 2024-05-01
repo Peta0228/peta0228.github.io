@@ -1,58 +1,55 @@
 portfolioitems:
   # portfolio category
   - title: Coding Projects
-    description: 'All my coding projects'
+    description: '💻'
     portfolioitem:
-      - name: Project 1
-        image: '/images/portfolio/code.jpg'
-        link: https://gohugo.io/
-        linktext: 'Visit project website'
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      - name: Entity Matching with AUC-Based Fairness
+        image: '/images/portfolio/proj1.jpg'
+        link: https://ieeexplore.ieee.org/abstract/document/10020293
+        linktext: 'project link'
+        description: '•	Developed Python applications to measure fairness criteria on ML models, analyzed bias in e-commerce/healthcare datasets
+•	Utilized SQL queries to improve data pipelines from AWS Redshift, ensuring accuracy and validity guidelines are met
+•	Improved data quality through feature augmentation and cleaning in Python, fine-tuned models with injections and resampling; implemented models in a high-performance computing platform
+•	Designed statistical testing (bootstrapping & confidence interval) to compare model performances; generated extra features through ML predictions, achieved 85% accuracy in testing
+•	Publication: co-authored Entity Matching with AUC-Based Fairness in 2022 IEEE International Conference on Big Data'
         tags:
           - Tag 1
           - Tag 2
-        status: 'Finished'
-        start: '2020'
-        end: '2021'
+        start: '2022'
+        end: '2023'
         authors:
-          - lxndrblz
-          - alexanderdavide
-      - name: Project 2
-        image: '/images/portfolio/code.jpg'
-        link: https://gohugo.io/
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-        status: 'On Hold'
+          - Soudeh Nilforoushan
+          - Peter Wu
+          - Mostafa Milani
+      - name: ETL Data Engineering & Modeling
+        image: '/images/portfolio/proj2.jpg'
+        link: https://www.kaggle.com/code/peter0228/etl-data-engineering
+        linktext: 'project link'
+        description: '•	Utilized SQL aggregate and JSON array functions to process 100,000+ rows of user-generated content data; built a dimensional data model for predictive analytics in match outcomes
+•	Designed data pipeline on a PostgreSQL database in AWS RDS with Python; developed real-time data streaming on AWS
+•	Boosted overall data efficiency from the previous data pipelines by 15%'
         tags:
           - Tag 1
           - Tag 2
-      - name: Project 3
-        link: https://gohugo.io/
-        status: 'Finished'
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      - name: 'Customer Segmentation & A/B Testing: Improve Business Conversion '
+        image: '/images/portfolio/proj3.jpg'
+        link: https://www.kaggle.com/code/peter0228/customer-segmentation-with-clustering/notebook
+        linktext: 'project link'
+        description: '•	Built a customer segmentation model with hierarchical clustering and PCA using Scikit-learn; labeled clusters with 5 customer profiles by distinct order values and order frequencies to support marketing decisions
+•	Designed an A/B testing & logistic regression experiment to measure user conversion on e-commerce page layouts, through hypothesis testing and p-value; aimed to increase average order value by 10%
+'
         tags:
           - Tag 1
           - Tag 2
   # portfolio category
-  - title: Research
-    description: 'All my research projects'
+  - title: Not Coding
+    description: '🤝'
     portfolioitem:
-      - name: Project 1
-        image: '/images/portfolio/code.jpg'
-        description: 'This project does not have a link attribute'
-        tags:
-          - Tag 1
-          - Tag 2
-      - name: Project 2
-        image: '/images/portfolio/code.jpg'
-        link: https://gohugo.io/
-        description: 'You can click on [**this link**](#codingprojects) to scroll to my Coding Projects portfolio'
-        tags:
-          - Tag 1
-          - Tag 2
-      - name: Project 3
-        image: '/images/portfolio/code.jpg'
-        link: https://gohugo.io/
-        description: 'A description'
+      - name: 'Client Consulting Capstone Project: INTEGRA Technologies'
+        image: '/images/portfolio/proj4.jpg'
+        description: '•	Led six students to provide consulting service for a company engaging in controlled bolting, leak detection, and equipment rentals.
+•	Interviewed corporate executives, analyzed the company’s financial data and operation reports in the past three years, and examined the labor-planning system across different business functions and regions to pinpoint factors that hinder better synergy in job scheduling and communication.
+•	Worked out suggestions to improve its labor utilization and turnover ratios and accelerate its digitalization process.'
         tags:
           - Tag 1
           - Tag 2
